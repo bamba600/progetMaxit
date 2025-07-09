@@ -1,0 +1,15 @@
+{
+    "name": "bamba/proget_m-axit",
+    "autoload": {
+        "psr-4": {
+            "Bamba\\ProgetMAxit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bamba100000",
+            "email": "nafissatou3582@gmail.com"
+        }
+    ],
+    "require": {}
+}
