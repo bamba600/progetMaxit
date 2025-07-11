@@ -2,8 +2,14 @@
     "name": "bamba/proget_m-axit",
     "autoload": {
         "psr-4": {
-            "Bamba\\ProgetMAxit\\": "src/"
-        }
+            "App\\": "src/",
+            "App\\Core\\": "app/core/",
+            "App\\Config\\": "app/config/"
+        },
+        "classmap": [
+            "app/core",
+            "src"
+        ]
     },
     "authors": [
         {
@@ -11,5 +17,7 @@
             "email": "nafissatou3582@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
 }

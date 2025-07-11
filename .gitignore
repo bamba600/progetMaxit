@@ -1,0 +1,48 @@
+# Fichiers de test et debug
+test_*.php
+debug_*.php
+create_*.php
+setup_*.php
+*.html
+
+# Dossiers et fichiers générés
+vendor/
+node_modules/
+.env
+.env.local
+
+# Fichiers uploadés
+public/uploads/*
+!public/uploads/.gitkeep
+public/public/uploads/*
+!public/public/uploads/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Cache
+cache/
+tmp/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Composer
+composer.phar
+composer.lock
+
+# Fichiers de backup
+*.bak
+*.backup
+*.old
